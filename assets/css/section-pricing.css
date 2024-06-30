@@ -1,0 +1,46 @@
+section.pricing .card-pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 52px;
+    background-color: rgba(var(--primary-color), 1);
+    border-radius: 4px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 90%, 90% 100%, 20% 100%, 0 100%, 0 0);
+}
+
+section.pricing .card-pricing .pricing-title {
+    font-size: 0.875rem;
+    margin-bottom: 8px;
+}
+
+section.pricing .card-pricing .pricing-price {
+    font-size: 2.5rem;
+    font-family: var(--urbanist-bold);
+    margin-bottom: 16px;
+}
+
+section.pricing .card-pricing .pricing-price span {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.62);
+}
+
+section.pricing .card-pricing .pricing-list {
+    padding-top: 16px;
+    border-top: 1px solid rgba(var(--light-color), 0.32) ;
+    margin-bottom: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+section.pricing .card-pricing .pricing-list p {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.82);
+}
+
+section.pricing .card-pricing a {
+    width: 100%;
+    text-align: center;
+}
