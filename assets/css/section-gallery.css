@@ -1,0 +1,19 @@
+section.gallery {
+    padding-top: 32px;
+}
+
+section.gallery .description {
+    margin-top: 16px;
+}
+
+section.gallery .gallery-landscape {
+    border-radius: 4px;
+    aspect-ratio: 4/2.7;
+    object-fit: cover;
+}
+
+section.gallery .gallery-portrait {
+    border-radius: 4px;
+    aspect-ratio: 1/0.9;
+    object-fit: cover;
+}
