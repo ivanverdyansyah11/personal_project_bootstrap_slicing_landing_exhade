@@ -1,0 +1,8 @@
+section.product {
+    padding-top: 32px;
+}
+
+section.product .description {
+    margin-top: 16px;
+    margin-bottom: 42px;
+}
