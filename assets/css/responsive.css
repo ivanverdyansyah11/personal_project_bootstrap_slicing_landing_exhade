@@ -1,0 +1,78 @@
+@media (max-width: 1399.98px) {
+    .headline {
+        font-size: 4rem;
+    }
+
+    section.hero .description {
+        width: 100%;
+    }
+
+    section.gallery .gallery-portrait {
+        aspect-ratio: 1/0.96;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .headline {
+        font-size: 3.75rem;
+    }
+
+    .title {
+        font-size: 2.75rem;
+    }
+
+    section.pricing .card-pricing {
+        padding: 32px 24px;
+        clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 92%, 90% 100%, 20% 100%, 0 100%, 0 0);
+    }
+
+    section.gallery .gallery-portrait {
+        aspect-ratio: 1/1.1;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .headline {
+        font-size: 3.75rem;
+    }
+
+    .content-gap {
+        margin-top: 42px;
+    }
+
+    section.hero .container > .row {
+        height: fit-content;
+        padding-top: 122px;
+        padding-bottom: 62px;
+    }
+
+    section.about,
+    section.product,
+    section.contact {
+        padding-top: 62px;
+        padding-bottom: 62px;
+    }
+
+    section.gallery .gallery-portrait {
+        aspect-ratio: 1/1.3;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .headline {
+        font-size: 3.25rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .content-gap {
+        margin-top: 32px;
+    }
+
+    section.program .card-program {
+        padding: 16px;
+        clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 90%, 85% 100%, 20% 100%, 0 100%, 0 0);
+    }
+}
