@@ -1,0 +1,23 @@
+section.hero {
+    overflow: hidden;
+}
+
+section.hero .container > .row {
+    height: 100vh;
+    padding-top: 92px;
+}
+
+section.hero h6 {
+    font-size: 1.093rem;
+    color: rgba(var(--primary-color), 1);
+    margin-bottom: 12px;
+}
+
+section.hero .headline {
+    margin-bottom: 24px;
+}
+
+section.hero .description {
+    margin-bottom: 42px;
+    width: 70%;
+}
