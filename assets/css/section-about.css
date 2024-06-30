@@ -1,0 +1,8 @@
+section.about {
+    padding-top: 32px;
+}
+
+section.about .description {
+    margin-top: 16px;
+    margin-bottom: 42px;
+}
